@@ -1,4 +1,5 @@
 Heavy Suppliers Warehouse Analytics & Operations Optimization
+
 PROJECT TEAM & CONTRIBUTORS
 Miriam Tom — Data Analyst / Repo Owner
 Akintayo Bisola — Data Analyst ( Data Cleaning)
