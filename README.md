@@ -1,4 +1,8 @@
 Heavy Suppliers Warehouse Analytics & Operations Optimization
+PROJECT TEAM & CONTRIBUTORS
+Miriam Tom — Data Analyst / Repo Owner
+Akintayo Bisola — Data Analyst ( Data Cleaning)
+Teammate Name 3 Data Analyst (Building insights, Pivot tables and pivot chart making) 
 
  Phase 1: Foundation & Exploration
 🗓️ Week 1: Data Profiling & Initial Dataset Audit
