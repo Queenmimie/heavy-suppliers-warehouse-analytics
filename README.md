@@ -15,7 +15,7 @@ Total Records Examined: Initial row count audit performed across primary warehou
 Key Columns Identifiers: shipment_id driver id customer name date, revenue fuel cost, maintenance cost,miles driven primary freight type
 
 2. Identified Data Anomalies & Quality Issues
-During the initial profiling phase, the following operational and structural anomalies were flagged for remediation:
+During the initial profiling phase, the following operational and structural anomalies were flagged.
 
 
 Currency Formatting: Text characters and currency symbols ($) present in financial metrics (revenue fuel_cost maintenance_cost), requiring conversion to numeric floats.
@@ -26,14 +26,14 @@ Redundant Records: Potential duplicate transaction logs flagged across unique sh
 
  Data Dictionary (Initial Draft)
 
-| Column Name | Raw Data Type | Expected Data Type | Description & Notes 
-shipment_id Text, Text / Key | Unique tracking code per warehouse dispatch 
-customer_name | Text | Text | Primary
-primary_freight_type, Text | Categorical  Cargo classification (e.g., Automotive, Electronics) |
-| `revenue` | Text | Numeric (Float) | Gross freight charges generated ($ USD) |
-| `fuel_cost` | Text / String | Numeric (Float) | Transport fuel expenditure |
-maintenance_cost, Text / String | Numeric (Float) | Vehicle upkeep / servicing expense,
-miles driven | Integer | Numeric | Total route distance traveled |
+Column Name | Raw Data Type | Expected Data Type | Description & Notes 
+shipment_id Text, Text, Key | Unique tracking code per warehouse dispatch 
+customer_name, Text, Text, Primary
+primary_freight_type, Text, Categorical  Cargo classification.
+revenue, Text, Numeric (Float)  Gross freight charges generated ($ USD)
+fuel_cost, Text String, Numeric (Float) | Transport fuel expenditure
+maintenance_cost, Text,String, Numeric (Float) Vehicle upkeep, servicing expense,
+miles driven, Integer,Numeric, Total route distance traveled
 
 
 Deliverables Posted
