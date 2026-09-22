@@ -3,7 +3,7 @@ Heavy Suppliers Warehouse Analytics & Operations Optimization
 PROJECT TEAM & CONTRIBUTORS
 Miriam Tom — Data Analyst / Repo Owner
 Akintayo Bisola — Data Analyst ( Data Cleaning)
- Shifau Ahmad_Data Analyst (Building insights, Pivot tables and pivot chart making) 
+Shifau Ahmad_Data Analyst (Building insights, Pivot tables and pivot chart making) 
 
 
  Phase 1: Foundation & Exploration
